@@ -175,7 +175,6 @@ section {
 }
 
 .img-amazing {
-  border: 2px solid yellow;
   width: 50%;
 }
 
@@ -191,7 +190,6 @@ section {
   align-items: flex-start;
   gap: 30px;
   padding: 50px;
-  border: 2px solid red;
 }
 
 .conteudo-amazing h3 {
@@ -215,4 +213,104 @@ section {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+}
+
+
+.secao-statistics {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor-secundaria)
+}
+
+.secao-statistics h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.cabecalho-statistics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding-top: 15%;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 10%;
+
+}
+
+.cabecalho-statistics p {
+  color: rgba(255, 255, 255, 0.555);
+}
+
+.container-cards-statistics {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-statistics-conteudo {
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 5cm;
+}
+
+
+
+.card-statistics-conteudo p {
+  color: rgba(255, 255, 255, 0.555);
+}
+
+.secao-statistics h3 {
+  color: white;
+  font-size: 40px;
+
+}
+
+.card-statistics-conteudo p {
+  font-size: 27px;
+
+}
+
+/*/////////herbert simon//////////*/
+
+.simon {
+  background-color: var(--cor-primaria);
+}
+
+.simon-container {
+  padding: 20% 400px;
+
+}
+
+.simon-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+
+}
+
+
+.simon-content p {
+  font-size: 26px;
+}
+
+.simon-content h2 {
+  color: white;
+  font-size: 50px;
 }
